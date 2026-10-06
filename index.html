@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pat's Lawn & Odd Jobs</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+<!-- Header / Navbar -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">🌿 Pat's Lawn Service</div>
+            <a href="tel:5551234567" class="phone-btn">📞 Call (555) 123-4567</a>
+        </div>
+    </header>
+
+    <!-- Hero / Header Section -->
+    <header class="hero">	
+	 <div class="logo"> 
+        <h1>Lawn Services & Odd Jobs</h1>
+        <p>Proudly serving homeowners in Fredericksburg City & Spotsylvania County</p>
+        <a href="#quote-section" class="btn-quote">Get a Free Estimate</a>
+    </header>
+
+    <main class="container">
+        
+        <!-- Our Services Section -->
+        <h2 class="section-main-title">Our Services</h2>
+		
+        <div class="services-container">
+            <!-- Left Box: Lawn Care -->
+            <div class="service-box">
+               
+				<h2 style="color: darkgreen; font-weight: bold;">Lawn Care & Mowing</h2>
+                <ul>
+                    <li>Regular Lawn Mowing & Edging</li>
+                    <li>Weed Control, Fertilization & Seeding</li>
+                    <li>Hedge, Bush & Shrub Trimming</li>
+                   	<li>String Trimming & Edging</li>
+					<li>Leaf Blowing and Leaf Removal</li>                    
+					<li>Mulch Delivery & Spreading</li>
+                    
+                </ul>
+            </div>
+            
+            <!-- Right Box: Odd Jobs -->
+            <div class="service-box">
+                
+				<h2 style="color: darkgreen; font-weight: bold;">Odd Jobs & Maintenance</h2>
+                <ul>
+                    <li>Pressure Washing (Driveways & Decks)</li>
+					<li>Driveway & Patio Blowing</li>
+                    <li>Small Fence, Gate Repairs & Painting</li>
+                    <li>Debris & Junk Removal</li>
+					<li>Pressure Washing (Decks/Walkways)</li>
+					<li>Fall & Spring Yard Cleanups</li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <!-- Who We Are  Section -->     
+   	<div class="center-box">
+	<h2 style="color: darkgreen; font-weight: bold;">Who We Are</h2>
+
+            <p>We are student owned team proud to provide reliable property care across our community.</p>		
+			<strong> 	
+			<p> </p>
+            <p>Our mission is to help those people in the area that we serve, 
+			in particular, we would like to provide seniors with services they find more challenging as they grow older.</p>
+			</strong>
+        </div>
+
+        <!-- Where We Work Section -->
+        <div class="center-box">
+		<h2 style="color: darkgreen; font-weight: bold;">Where We Work</h2>
+             
+            <p>We provide prompt, friendly service in the following local neighborhoods:</p>            
+            <div class="sub-regions">
+                <div class="region-badge">Fredericksburg City</div>
+                <div class="region-badge">Spotsylvania County</div>
+            </div>
+        </div>
+
+      <!-- What's Next -->
+		 
+		<div id="quote-section" class="center-box">
+		<h2 style="color: darkgreen; font-weight: bold;">What's Next.</h2>
+		
+		<p>Fill out the form for us to discuss your needs. For urgent helper requests or custom odd jobs, feel free to call or text us directly.</p>
+		<p><strong>Phone:</strong> (555) 123-4567</p>
+		<p><strong>Hours:</strong> Mon - Sat: 8:30 AM - 5:30 PM</p>
+		<p>We typically will contact you within 24 business hours!</p>
+		</div>
+	
+		
+<div class="form-container">
+  
+  <h2 style="color: darkgreen; font-weight: bold;">Request a Free Estimate</h2>
+  <form id="questionForm">
+    <!-- Question 1: Name Field -->
+    <div class="form-group">
+      <label for="userName">Question 1: What is your name?</label>
+      <input type="text" id="userName" name="1. Name" placeholder="Enter your full name" required />
+    </div>
+
+    <!-- Question 2: Phone Number Field -->
+    <div class="form-group">
+      <label for="userPhone">Question 2: What is your phone number?</label>
+      <input type="tel" id="userPhone" name="2. Phone Number" placeholder="123-456-7890" required />
+    </div>
+
+    <!-- Question 3: Service Needed Dropdown -->
+    <div class="form-group">
+      <label for="serviceNeeded">Question 3: Service Needed</label>
+      <select id="serviceNeeded" name="3. Service Needed" required>
+        <option value="" disabled selected>-- Select a Service --</option>
+		<option value="Lawn Mowing">Lawn Mowing & Edging</option>
+		<option value="Weed Control">Weed Control, Fertilization & Seeding</option>	
+		<option value="Shrub Trimming">Bush, Hedge & Shrub Trimming</option>	
+		<option value="Mulch Delivery">Mulch Delivery & Spreading</option>
+		<option value="Leaf Blowing">Leaf Blowing</option>
+		<option value="Leaf Blowing and Leaf Removal">Leaf Blowing and Leaf Removal</option>
+		<option value="One-Time Yard Cleanup">One-Time Yard Cleanup</option>	
+		<option value="Fall & Spring Yard Cleanups">Fall & Spring Yard Cleanups</option>
+		<option value="Small Fence & Gate Painting">Small Fence & Gate Painting</option>		
+		<option value=" Power Washing"> Power Washing (Driveways, Walkways & Decks)</option>			
+		<option value="Limited Debris & Junk Removal">Limited Debris & Junk Removal</option>
+		<option value="Other Odd Jobs">Other Odd Jobs</option>		
+       
+      </select>
+    </div>
+
+    <!-- Question 4: Property Address (4 Lines) -->
+    <div class="form-group">
+      <label for="propertyAddress">Question 4: Property Address</label>
+      <textarea id="propertyAddress" name="4. Property Address" rows="4" placeholder="Street Address&#10;Apartment/Suite&#10;City, State, Zip Code" required></textarea>
+    </div>
+
+    <!-- Question 5: Email Field -->
+    <div class="form-group">
+      <label for="userEmail">Question 5: Email Address</label>
+      <input type="email" id="userEmail" name="5. Email" placeholder="username@gmail.com" required />
+    </div>
+
+    <!-- Question 6: Preferred Method of Contact Dropdown -->
+    <div class="form-group">
+      <label for="contactMethod">Question 6: Preferred Method of Contact</label>
+      <select id="contactMethod" name="6. Preferred Contact Method" required>
+        <option value="" disabled selected>-- Select Contact Method --</option>
+        <option value="Email">Email</option>        
+        <option value="Text Message">Text Message</option>		
+		<option value="Phone Call">Phone Call</option>
+		<option value="Call in Morning">Call in Morning</option>
+		<option value="Call in Afternoon">Call in Afternoon</option>
+      </select>
+    </div>
+
+    <!-- Question 7: Job Details (4 Lines) -->
+    <div class="form-group">
+      <label for="jobDetails">Question 7: Job Details</label>
+      <textarea id="jobDetails" name="7. Job Details" rows="4" placeholder="Please describe the work details here..." required></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" id="submitBtn">Submit Request</button>
+  </form>
+</div>
+
+        <!-- Footer Section -->
+        <footer class="center-box footer-box">
+            <p>&copy; Pat's Lawn Service</p>
+        </footer>
+
+    </main>
+<script>
+  // Paste your Google Apps Script URL inside the single quotes below:
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwmgi4UNiary3HjcU3T6jUSAi-oxevkeg5KwczwizE3Pxa5aDKc-d5Y66oysNvYZ0Cc1w/exec';
+
+  document.getElementById('questionForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const submitBtn = document.getElementById('submitBtn');
+    submitBtn.disabled = true;
+    submitBtn.innerText = 'Sending Request...';
+    
+    const formData = new FormData(this);
+    const data = {};
+    formData.forEach((value, key) => (data[key] = value));
+    
+    fetch(SCRIPT_URL, {
+      method: 'POST',
+      mode: 'cors',
+      body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(result => {
+      alert('Thank you! Your request details have been sent to Gmail.');
+      this.reset();
+    })
+    .catch(error => {
+      alert('Oops! Something went wrong. Check the console for details.');
+      console.error('Error!', error.message);
+    })
+    .finally(() => {
+      submitBtn.disabled = false;
+      submitBtn.innerText = 'Submit Request';
+    });
+  });
+</script>
+
+</body>
+</html>
